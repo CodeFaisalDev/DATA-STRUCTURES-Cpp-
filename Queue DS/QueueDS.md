@@ -6,9 +6,11 @@ Queue is a abtract data type with bounded capacity.
 
 
 It works in FIFO(First in First out) or LILO(Last in Last Out)
-          ------------------------------------------
-Dequeue<--     0   |    1    |    2     |    3      -->Enqueue
-          ------------------------------------------
+
+```
+         ------------------------------------------
+ Dequeue<--     0   |    1    |    2     |    3      -->Enqueue
+         ------------------------------------------
                                                          /\
                                                          ||
                                                          ||
@@ -17,14 +19,14 @@ Dequeue<--     0   |    1    |    2     |    3      -->Enqueue
 The end depend is independent. Either one can be use as a front or back.
 
           ------------------------------------------
-Enqueue<--     0   |    1    |    2     |    3      -->Dequeue
+ Enqueue<--     0   |    1    |    2     |    3      -->Dequeue
           ------------------------------------------
 
-/\
-||
-||
-BACK
-
+ /\
+ ||
+ ||
+ BACK
+```
 Elements are added in one end(rear end/back) is called Enqueue.
 Elements are removed from other end(front/head) is called Dequeue.
 
