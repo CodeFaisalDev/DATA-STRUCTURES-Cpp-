@@ -43,4 +43,35 @@ If n is adding or subtracting or mlultiplying with constant then the Big-O will 
     
     $`O(f(n)) = O(n^3)`$      
 
-Here Big-O will be CUBIC TIME. Becouse n^3 is the largest term in the equation.
+Here Big-O will be CUBIC TIME. Becouse $`n^3`$ is the largest term in the equation.
+
+
+## Big-O for constant time:
+
+```
+i:=0
+while i<11 do
+      i = i+1
+```
+Here Big-O will be constant O(1) becouse we are using a constant value.
+
+## Big-O for Linear time:
+
+```
+i:=0
+while i<n do
+      i=i+1
+      
+Here : f(n) = n
+       O(f(n)) = O(n)
+
+i:=0
+while i<n do
+      i=i+3
+
+Here : f(n) = n/3
+       O(f(n)) = O(n)
+```
+
+## Big-O for Quadric time:
+typing...
