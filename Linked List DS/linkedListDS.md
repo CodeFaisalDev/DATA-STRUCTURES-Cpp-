@@ -110,3 +110,9 @@ LINKED LIST ====
     
 ```
 
+### Application of linked list:
+* Linked List can be used to implement Stack and Queue
+* Linked List can be used to implement Graphs.
+* Linked List can be used to implement Hash Table.
+* Undo Functionality in photoshop or word.
+
