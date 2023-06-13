@@ -24,3 +24,23 @@ To understand what Big O notation is, we can take a look at a typical example, O
 * CUBIC TIME = $`O(n^3)`$
 * EXPONENTIOA TIME = $`O(b^n)`$
 * FACTORIAL TIME = O(n!)
+
+### Big-O properties
+
+* If n is constant then the Big-O will be contsant
+
+Example:
+
+      O(n + c) = O(n)
+      O(nc) = O(n)  c > 0     
+   
+      
+If n is adding or subtracting or mlultiplying with constant then the Big-O will remain constant.
+
+* Let f be a function that describe the running time of a perticular program for an input size of n
+
+    $`f(n) = 7log(n)^3 + 15n^2 + 2n^3 + 8`$
+    
+    $`O(f(n)) = O(n^3)`$      
+
+Here Big-O will be CUBIC TIME. Becouse n^3 is the largest term in the equation.
