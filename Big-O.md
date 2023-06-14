@@ -74,4 +74,25 @@ Here : f(n) = n/3
 ```
 
 ## Big-O for Quadric time:
-typing...
+Both the equations are qudric $`n*n = n^2`$
+
+```
+for(i=0; i<n;i++){
+      for(j=0; j<n; j++){
+            i = i+1
+      }
+}
+```
+For the first example:
+$`f(n) = n*n = n^2 O(f(n)) = O(n^2)`$
+```
+for(i=0; i<n;i++){
+      for(j=i; j<n; j++){
+            i = i+1
+      }
+}
+```
+As for the second example the amount of loop directly depend on the value of i.
+so if i = 0 then we do n work if i = 1 then we do (n-1) work. Simillerly for i = 2, i = 3, i = 4 n will be (n-2), (n-3), (n-4). Then the equation will become n + (n-1) + (n-2) + (n-3) + ........ + 3 + 2 + 1. Simplifying this equation and we get.
+n(n+1)/2 so the Big-O is $`O(n(n+1)/2) = O(n^2/2 + n/2) = O(n^2)`$
+
