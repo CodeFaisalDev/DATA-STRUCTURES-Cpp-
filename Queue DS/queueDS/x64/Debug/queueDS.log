@@ -1,0 +1,4 @@
+﻿  queueDS.cpp
+D:\C++\DATA STRUCTURES\STRACK DATA STRUCTURE\Queue\queueDS\queueDS.cpp(111,12): warning C4129: ' ': unrecognized character escape sequence
+D:\C++\DATA STRUCTURES\STRACK DATA STRUCTURE\Queue\queueDS\queueDS.cpp(117,12): warning C4129: ' ': unrecognized character escape sequence
+  queueDS.vcxproj -> D:\C++\DATA STRUCTURES\STRACK DATA STRUCTURE\Queue\queueDS\x64\Debug\queueDS.exe
