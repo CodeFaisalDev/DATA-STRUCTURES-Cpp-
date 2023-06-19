@@ -1,0 +1,5 @@
+﻿  circularQueue.cpp
+D:\C++\DATA STRUCTURES\STRACK DATA STRUCTURE\Queue\circularQueue\circularQueue.cpp(40,30): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+D:\C++\DATA STRUCTURES\STRACK DATA STRUCTURE\Queue\circularQueue\circularQueue.cpp(109,12): warning C4129: ' ': unrecognized character escape sequence
+D:\C++\DATA STRUCTURES\STRACK DATA STRUCTURE\Queue\circularQueue\circularQueue.cpp(115,12): warning C4129: ' ': unrecognized character escape sequence
+  circularQueue.vcxproj -> D:\C++\DATA STRUCTURES\STRACK DATA STRUCTURE\Queue\circularQueue\x64\Debug\circularQueue.exe
